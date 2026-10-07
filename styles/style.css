@@ -10,7 +10,8 @@
   body{
     font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
     font-size: 14px;
-    background-color: #f4f4f4;
+    background-color: #fff;
+    /* background-color: blueviolet; */
   }
 
 
@@ -176,6 +177,78 @@ header{
      
     }
 
+    .banner{
+      width: 1050px;
+      margin:20px auto;
+      display: flex;
+      justify-content: space-around;
+      padding: 124px 60px 80px;
+      background-image: linear-gradient(135deg, #21254e , #2d4a83);
+      border-radius: 20px;
+
+    }
+    .banner-text h3{
+      font-family: YekanBakhHeavy;
+      color: #fff;
+      font-size: 2rem;
+    }
+    .banner-text p{
+      font-family: iranyekanwebregular;
+      color: #eee;
+      font-size: 1rem;
+      margin: 25px 0;
+      line-height: 2.5rem;
+    }
+    .banner-img{
+      width: 500px;
+    }
+    .banner-button{
+      margin-top: 60px;
+    }
+    .reg{
+      font-size: 1rem;
+      font-family: YekanBakhBold;
+      color: #000;
+      background-color: #ffd900;
+      padding: 6px 14px;
+      border: none;
+      border-radius: 10px;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+    .log{
+      font-size: 1rem;
+      font-family: YekanBakhBold;
+      color: #000;
+      background-color: #435a8a;
+      padding: 6px 14px;
+      border: none;
+      border-radius: 10px;
+      margin-left: 10px;
+      text-decoration: none;
+
+    }
+
+    .go-down{
+      width: 100;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      bottom: 58px;
+    }
+    .go-down div{
+      background-image: url("../images/arrowbottom.svg");
+      width: 164px;
+      height: 78px;
+    }
+
+    .go-down img{
+      width: 15px;
+      position: relative;
+      top: -60px;
+    }
 
   @media (max-width: 1200px) {
     header{
