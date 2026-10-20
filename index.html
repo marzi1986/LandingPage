@@ -1,139 +1,230 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HivaTech Home</title>
-    <link rel="stylesheet" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
+  <body>
     <header>
-        <div>
-            <img src="images/logo-white.svg" alt="HivaTech Logo" class="logo">
+      <div>
+        <img src="images/logo-white.svg" alt="HivaTech Logo" class="logo" />
         <p>به صفحه خانگی هیواتک خوش آمدید</p>
+      </div>
 
-        </div>
+      <nav>
+        <ul class="header-ul">
+          <li><a href="index.html">خانه</a></li>
+          <li><a href="about.html">درباره ما</a></li>
+          <li id="show-more-menu">
+            <a href="services.html">خدمات</a>
+            <img
+              src="./images/down-arrow-svgrepo-com.svg"
+              alt="More Icon"
+              class="more-icon"
+            />
+          </li>
 
-        <nav>
-            <ul class="header-ul">
-                <li><a href="index.html">خانه</a></li>
-                <li><a href="about.html">درباره ما</a></li>
-                <li id="show-more-menu">
-                    <a href="services.html">خدمات</a>
-                    <img src="./images/down-arrow-svgrepo-com.svg" alt="More Icon" class="more-icon">
+          <div class="show-service-menu">
+            <div>
+              <a href="#">
+                <p>طراحی وب سایت</p>
+                <p>سایت شرکتی و فروشگاهی</p>
+              </a>
 
-                    <div class="show-service-menu" >
-                        <div>
-                            <a href="#">
-                                <p> طراحی وب سایت</p>
-                                <p>سایت شرکتی و فروشگاهی</p>
-                            </a>
-
-                              <a href="#">
-                                <p> سامانه های تحت وب </p>
-                                <p>پنل و سامانه مدیریت</p>
-                            </a>
-                        </div>
-                        <div>
-                             <a href="#">
-                                <p>نرم افزار تحت ویندوز</p>
-                                <p>نرم افزار های حسابداری-داخلی و سازمانی</p>
-                            </a>
-
-                              <a href="#">
-                                <p> ارتقا سایت</p>
-                                <p>ابزارهای رتبه بندی سایت</p>
-                            </a>
-
-                        </div>
-                    </div>
-                </li>
-                <li><a href="contact.html">تماس با ما</a></li>
-                <li><a href="login.html">ناحیه کاربری</a></li>
-            </ul>
-            
-        </nav>
-
-        <div >
-                <img src="./images/hamburger.svg"  alt="Menu Icon" class="hamburger-icon">
+              <a href="#">
+                <p>سامانه های تحت وب</p>
+                <p>پنل و سامانه مدیریت</p>
+              </a>
             </div>
+            <div>
+              <a href="#">
+                <p>نرم افزار تحت ویندوز</p>
+                <p>نرم افزار های حسابداری-داخلی و سازمانی</p>
+              </a>
+
+              <a href="#">
+                <p>ارتقا سایت</p>
+                <p>ابزارهای رتبه بندی سایت</p>
+              </a>
+            </div>
+          </div>
+
+          <li><a href="contact.html">تماس با ما</a></li>
+          <li><a href="login.html">ناحیه کاربری</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <img
+          src="./images/hamburger.svg"
+          alt="Menu Icon"
+          class="hamburger-icon"
+        />
+      </div>
     </header>
 
     <div class="hamburger-menu">
-        <div class="cross-icon">
-            <img src="./images/cross.svg" alt="Close Icon">
-        </div>
+      <div class="cross-icon">
+        <img src="./images/cross.svg" alt="Close Icon" />
+      </div>
 
-        <div class="hamburger-menu-items">
+      <div class="hamburger-menu-items">
         <ul>
-            <li><a href="index.html">خانه</a></li>
-            <li><a href="about.html">درباره ما</a></li>
-            <li><a href="services.html">خدمات</a></li>
-            <div></div>
-            <li><a href="contact.html">تماس با ما</a></li>
-            <li class="more-item"><a href="login.html">ناحیه کاربری</a></li>
-            <img src="./images/arrow.svg" alt="More Icon" class="more-icon"></div>
+          <li><a href="index.html">خانه</a></li>
+          <li><a href="about.html">درباره ما</a></li>
+          <li><a href="services.html">خدمات</a></li>
+          <div></div>
+          <li><a href="contact.html">تماس با ما</a></li>
+          <li class="more-item">
+            <a href="login.html">ناحیه کاربری</a>
+            <img src="./images/arrow.svg" alt="More Icon" class="more-icon" />
+          </li>
         </ul>
-        </div>
-
+      </div>
     </div>
 
     <main>
-        <div class="banner">
-
-
-            <div class="banner-text">
-                <h3>
-                    بیش از ده سال تجربه در زمینه طراحی وب
-                </h3>
-                <p>
-لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،    
-
-                </p>
-           <div class="banner-button">
-                <a href="#" class="reg">ثبت نام</a>
-                <a href="#" class="log">ورود</a>
-            </div>
+      <div class="banner">
+        <div class="banner-text">
+          <h3>بیش از ده سال تجربه در زمینه طراحی وب</h3>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است،
+          </p>
+          <div class="banner-button">
+            <a href="#" class="reg">ثبت نام</a>
+            <a href="#" class="log">ورود</a>
+          </div>
         </div>
 
-
-            <div class="banner-img">
-                <img src="./images/home.svg">
-            </div>
-             
+        <div class="banner-img">
+          <img src="./images/home.svg" />
         </div>
-        <div class="go-down">
-            <div></div>
-            <img src="./images/down-arrow-svgrepo-com.svg">
-        </div>
+      </div>
+      <div class="go-down">
+        <div></div>
+        <img src="./images/down-arrow-svgrepo-com.svg" />
+      </div>
     </main>
+
     <section class="online-payment">
-     
-        <div class="section-text">
-            <h2>فروشگاه اینترنتی</h2>
-            <h3>پرداخت سریع و امن</h3>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-       <div class="section-link">
-
-        <a href="#" class="first-button">
-            سفارش دهید   
-        </a>
-        <a href="#" class="second-button">
+      <div class="section-text">
+        <h2>فروشگاه اینترنتی</h2>
+        <h3>پرداخت سریع و امن</h3>
+        <p>
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+          در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+          طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+          الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+          صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+          شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای
+          اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده
+          قرار گیرد.
+        </p>
+        <div class="section-link">
+          <a href="#" class="first-button"> سفارش دهید </a>
+          <a href="#" class="second-button">
             بیشتر
-        <img  src="./images/arrow.svg">
-        </a>
-        
-       </div>
-       
-            </div>
-
-               <div class="section-image">
-            <img src="./images/pg.svg">
-
+            <img src="./images/arrow.svg" />
+          </a>
         </div>
+      </div>
+
+      <div class="section-image">
+        <img src="./images/pg.svg" />
+      </div>
     </section>
+
+    <section class="online-payment">
+      <div class="section-image">
+        <img src="./images/pg.svg" />
+      </div>
+      <div class="section-text">
+        <h2>فروشگاه اینترنتی</h2>
+        <h3>پرداخت سریع و امن</h3>
+        <p>
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+          در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+          طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+          الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+          صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+          شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای
+          اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده
+          قرار گیرد.
+        </p>
+        <div class="section-link">
+          <a href="#" class="first-button"> سفارش دهید </a>
+          <a href="#" class="second-button">
+            بیشتر
+            <img src="./images/arrow.svg" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <article class="attributes">
+      <div class="definition">
+        <h3>چرا هیواتک؟</h3>
+        <p>
+          هیواتک با سال ها تجربه در طراحی و برنامه نویسی و بهره گیری از یک تیم
+          متخصص و توانمند، توانسته پروژه های متنوعی را با بهترین کیفیت به سر
+          انجام برساند ترکیب دانش فنی خلاقیت و دقت در اجرا باعث شده نتیجه کار
+          همواره فراتر از انتظار مشتریان باشد
+        </p>
+      </div>
+      <div class="items">
+        <div class="first-div item">
+          <div class="div-title">
+            <img src="./images/splite.svg" />
+            <h3>طراحی وب سایت</h3>
+          </div>
+          <p>
+            طراحی و پیاده سازی وب سایت های شرکتی، فروشگاهی و شخصی؛ با ساختاری
+            تمیز سرعت بالا و رابط کاربری متناسب با هویت کسب و کار شما
+          </p>
+        </div>
+        <div class="second-div item">
+          <div class="div-title">
+            <img src="./images/support.svg" />
+            <h3>پشتیبانی و مشاوره تخصصی</h3>
+          </div>
+          <p>
+            طراحی و پیاده سازی وب سایت های شرکتی، فروشگاهی و شخصی؛ با ساختاری
+            تمیز سرعت بالا و رابط کاربری متناسب با هویت کسب و کار شما
+          </p>
+        </div>
+        <div class="third-div item">
+          <div class="div-title">
+            <img src="./images/verifiedIcon.svg" />
+            <h3>متخصص در امنیت و سئو</h3>
+          </div>
+          <p>
+            طراحی و پیاده سازی وب سایت های شرکتی، فروشگاهی و شخصی؛ با ساختاری
+            تمیز سرعت بالا و رابط کاربری متناسب با هویت کسب و کار شما
+          </p>
+        </div>
+        <div class="fourth-div item">
+          <div class="div-title">
+            <img src="./images/splite.svg" />
+            <h3>طراحی وب سایت</h3>
+          </div>
+          <p>
+            طراحی و پیاده سازی وب سایت های شرکتی، فروشگاهی و شخصی؛ با ساختاری
+            تمیز سرعت بالا و رابط کاربری متناسب با هویت کسب و کار شما
+          </p>
+        </div>
+      </div>
+    </article>
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
